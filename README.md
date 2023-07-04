@@ -39,3 +39,5 @@ python test_cam.py
 cd taclink_sensing/inference
 python main.py
 ```
+![You should see these windows](img/demo.png)
+

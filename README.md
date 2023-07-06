@@ -28,7 +28,7 @@ sudo apt-get update
 sudo apt-get install v4l-utils
 ```
 
-4. Plug the camera cables into the PC. **Note that we now only use one camera `cam A` for the sensing program. But the other one should also be connected for powering the inner LED board**. Otherwise, you have to use an external power source for the LED board. It is important to power on the LED board to allow the sensor to work properly. You can check the USB Camera ID as follows
+4. Plug the camera cables into the PC. **Note that we now only use one camera (`cam A`) for the sensing program. But the other one should also be connected to power the inner LED board**. Otherwise, an external power source is needed for the LED board. It is essential to power the LED board to allow the sensor to work properly. You can check the USB Camera ID as follows
 ```
 cd taclink_sensing/inference
 python test_cam.py
@@ -41,3 +41,16 @@ python main.py
 ```
 ![You should see these windows](img/demo.png)
 
+## Reference
+The latest paper can be found [here](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10054516)
+```
+@ARTICLE{quan23tro,
+  author={Luu, Quan Khanh and Nguyen, Nhan Huu and Ho, Van Anh},
+  journal={IEEE Transactions on Robotics}, 
+  title={Simulation, Learning, and Application of Vision-Based Tactile Sensing at Large Scale}, 
+  year={2023},
+  volume={39},
+  number={3},
+  pages={2003-2019},
+  doi={10.1109/TRO.2023.3245983}}
+```

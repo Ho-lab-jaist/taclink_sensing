@@ -5,7 +5,7 @@ import numpy as np
 import torch
 
 import cv2
-from protac.util import image_processing_tools as it
+from utils import image_processing_tools as it
 
 
 def process_input_image(

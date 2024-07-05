@@ -9,9 +9,10 @@ The program was run successfully with Python 3.8, NVIDIA-SMI 470.182.03, CUDA Ve
 
 ## Getting Started
 1. Clone the repository, download the trained model file (.pt), and put it into the `network` directory.
-You can download the model file [here](https://drive.google.com/file/d/1iZBT_pqcG2R2QJSgO0L0dhWyMvGUcvT5/view?usp=sharing)
-
-2. Add PYTHONPATH, add the following command to the `~/.bashrc` file
+You can download the model files as follows:
+- [one camera model](https://drive.google.com/file/d/1iZBT_pqcG2R2QJSgO0L0dhWyMvGUcvT5/view?usp=sharing)
+- [two camera model](https://drive.google.com/file/d/1eVDyAHNWi86xuZla0rGkUjiWy3ZSwymX/view?usp=drive_link)
+3. Add PYTHONPATH, add the following command to the `~/.bashrc` file
 ```
 export PYTHONPATH=[your/path/]taclink_sensing:$PYTHONPATH
 ```

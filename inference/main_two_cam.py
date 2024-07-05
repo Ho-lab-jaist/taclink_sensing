@@ -39,9 +39,7 @@ def input_image_process(frame_raw, transform):
     return processed_frame
 
 
-MODEL_NAME = "tacnet_two_cam_model_07-02-24.pt"
-# MODEL_NAME = "tacnet_two_cam_model.pt"
-# MODEL_NAME = 'tacnet_sim_single_binary_input_double_touch_dataset_data_augmentation_06-12-23.pt'
+MODEL_NAME = "tacnet_two_cam_model.pt"
 
 tacnet = load_model(model_name=MODEL_NAME, in_nc=2)
 

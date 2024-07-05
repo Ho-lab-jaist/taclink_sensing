@@ -102,7 +102,7 @@ camA = CameraControl(cam_id = 0,
 camA.set_brightness(47)
 camA.set_contrast(32)
 
-camB = CameraControl(cam_id =4,
+camB = CameraControl(cam_id =2,
                     fps= 120, 
                     mjpg_enabled = True,
                     os = 'ubuntu',

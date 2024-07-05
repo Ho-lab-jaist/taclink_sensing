@@ -40,6 +40,13 @@ python test_cam.py
 cd taclink_sensing/inference
 python main.py
 ```
+
+To run inference code for two-camera processing
+```
+cd taclink_sensing/inference
+python main_two_cam.py
+```
+
 ![You should see these windows](img/demo.png)
 
 ## Reference
